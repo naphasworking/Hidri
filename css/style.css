@@ -1301,6 +1301,10 @@ button { font-family: inherit; }
     .contact-inner { flex-direction: column; gap: 28px; }
     .contact-form  { padding: 28px 22px; }
     .form-row { grid-template-columns: 1fr; gap: 0; }
+    .contact-side  { align-items: center; text-align: center; }
+    .contact-info-box { width: 100%; text-align: center; }
+    .social-links  { justify-content: center; }
+    .qr-box        { align-self: center; }
 
     /* Blogs */
     .blogs-grid { grid-template-columns: 1fr; }

@@ -35,28 +35,7 @@
         });
     }
 
-    /* ── Custom cursor ── */
-    const dot  = document.getElementById('cursorDot');
-    const ring = document.getElementById('cursorRing');
-    if (dot && ring && window.matchMedia('(hover:hover)').matches) {
-        let rx = 0, ry = 0;
-        document.addEventListener('mousemove', e => {
-            dot.style.left  = e.clientX + 'px';
-            dot.style.top   = e.clientY + 'px';
-            rx += (e.clientX - rx) * 0.12;
-            ry += (e.clientY - ry) * 0.12;
-            ring.style.left = rx + 'px';
-            ring.style.top  = ry + 'px';
-        });
-        // Lag the ring with rAF
-        (function loop() {
-            requestAnimationFrame(loop);
-        })();
-        document.querySelectorAll('a, button, .product-card, .blog-card, .industry-item').forEach(el => {
-            el.addEventListener('mouseenter', () => { dot.classList.add('hovering'); ring.classList.add('hovering'); });
-            el.addEventListener('mouseleave', () => { dot.classList.remove('hovering'); ring.classList.remove('hovering'); });
-        });
-    }
+    /* Custom cursor disabled — using default browser cursor */
 
     /* ── Ripple on buttons ── */
     document.querySelectorAll('.btn').forEach(btn => {

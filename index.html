@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HiDRI - Desiccant Products Thailand</title>
+    <meta name="description" content="Hi Dri (Thailand) Co., Ltd. - Leading manufacturer of desiccant products. Protect your goods from moisture and mold effectively.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- ========== NAVBAR ========== -->
+<nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+        <a href="index.html" class="logo">
+            <img src="images/logo/1.png" alt="HiDRI" class="logo-img">
+        </a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Product</a></li>
+            <li><a href="#industries">FAQ</a></li>
+            <li><a href="#blogs">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-right">
+            <div class="nav-social">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Line"><i class="fab fa-line"></i></a>
+            </div>
+            <div class="lang-select">
+                <i class="fas fa-globe"></i> English
+            </div>
+            <a href="#contact" class="btn btn-primary nav-cta">Consult with Expert</a>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</nav>
+
+<!-- ========== HERO ========== -->
+<section class="hero" id="home">
+
+    <!-- YouTube Video Background -->
+    <div class="hero-video-wrap">
+        <iframe
+            id="heroVideo"
+            src="https://www.youtube.com/embed/ixaOApikxD0?autoplay=1&mute=1&loop=1&playlist=ixaOApikxD0&controls=0&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&playsinline=1"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen
+            title="HiDRI background video">
+        </iframe>
+    </div>
+    <!-- Dark overlay for readability -->
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-inner">
+        <div class="hero-content">
+            <div class="hero-badge">🌿 100% Biodegradable &amp; Eco-Friendly</div>
+            <h1 class="hero-title">
+                ถนอม<span class="hero-highlight">ผลิตภัณฑ์</span><br>
+                ได้นานถึง <span class="hero-number">4 เท่า</span>
+            </h1>
+            <p class="hero-sub">คงความสดใหม่ก้อง คลัน และระดับสากล</p>
+            <p class="hero-protect">
+                <strong>ปกป้อง</strong> จากความชื้นและเชื้อรา<br>
+                ได้อย่างมีประสิทธิภาพ
+            </p>
+            <div class="hero-actions">
+                <a href="#contact" class="btn btn-white">Consult with Expert</a>
+                <a href="#products" class="btn btn-outline-white">View Products</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero-wave">
+        <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#ffffff"/>
+        </svg>
+    </div>
+</section>
+
+<!-- ========== ABOUT ========== -->
+<section class="about section" id="about">
+    <div class="container about-inner">
+        <div class="about-image">
+            <img src="images/about/about-us.jpg" alt="Hi Dri Thailand Shipping">
+            <div class="about-img-fallback"><i class="fas fa-ship"></i></div>
+        </div>
+        <div class="about-content">
+            <span class="section-badge">About Us</span>
+            <h2>Hi Dri (Thailand) Co.,Ltd.</h2>
+            <h3>Desiccant Products by Hi DRI</h3>
+            <p>เราเป็นผู้นำในการผลิตและจำหน่ายสินค้าดูดความชื้น ช่วยปกป้องสินค้าของคุณจากความชื้นและเชื้อราอย่างมีประสิทธิภาพ สำนักงานใหญ่ตั้งอยู่ที่ประเทศสิงคโปร์ พร้อมสำนักงานสาขาทั่วโลก</p>
+            <p>We are widely popular domestically and internationally, effectively addressing humidity and mold issues for manufacturers and major logistics businesses.</p>
+            <a href="#" class="btn btn-outline">Learn More</a>
+        </div>
+    </div>
+</section>
+
+<!-- ========== WHY CHOOSE US ========== -->
+<section class="why section" id="why">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-badge">Our Standards</span>
+            <h2>WHY CHOOSE US</h2>
+        </div>
+        <div class="cert-logos">
+            <img src="images/certifications/2.png" alt="ISO 9001, GMP, ISO 22000, GHP, HACCP, Halal Certifications" class="cert-logos-img">
+        </div>
+    </div>
+</section>
+
+<!-- ========== OUR PRODUCTS ========== -->
+<section class="products section" id="products">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-badge">What We Offer</span>
+            <h2>OUR PRODUCTS</h2>
+        </div>
+        <div class="products-grid">
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="images/products/natural-clay/natural-clay.jpg" alt="HIDRI Natural Clay">
+                    <div class="product-img-fallback"><i class="fas fa-mountain"></i></div>
+                    <div class="product-tag">Natural</div>
+                </div>
+                <div class="product-info">
+                    <h3>HIDRI Natural Clay</h3>
+                    <p>Natural clay desiccant for effective moisture absorption across all industries</p>
+                    <a href="product.html" class="btn-link">details <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="images/products/activated-clay/activated-clay.jpg" alt="HIDRI Activated Clay">
+                    <div class="product-img-fallback"><i class="fas fa-layer-group"></i></div>
+                    <div class="product-tag">Premium</div>
+                </div>
+                <div class="product-info">
+                    <h3>HIDRI Activated Clay</h3>
+                    <p>High-performance activated clay for superior moisture and humidity control</p>
+                    <a href="product.html" class="btn-link">details <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="images/products/oxygen-absorber/oxygen-absorber.jpg" alt="Oxygen Absorbers">
+                    <div class="product-img-fallback"><i class="fas fa-wind"></i></div>
+                    <div class="product-tag">Bestseller</div>
+                </div>
+                <div class="product-info">
+                    <h3>Oxygen Absorbers</h3>
+                    <p>Remove oxygen to preserve freshness and extend shelf life of food products</p>
+                    <a href="product.html" class="btn-link">details <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="images/products/silica-gel/silica-gel.jpg" alt="HIDRI Silica Gel">
+                    <div class="product-img-fallback"><i class="fas fa-droplet"></i></div>
+                    <div class="product-tag">Reliable</div>
+                </div>
+                <div class="product-info">
+                    <h3>HI DRI Silica Gel</h3>
+                    <p>Premium silica gel beads for reliable humidity control and moisture prevention</p>
+                    <a href="product.html" class="btn-link">details <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== WHERE TO USE ========== -->
+<section class="industries section" id="industries">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-badge">Applications</span>
+            <h2>Where to Use</h2>
+        </div>
+        <div class="industries-grid">
+            <div class="industry-item">
+                <div class="industry-icon"><i class="fas fa-seedling"></i></div>
+                <p>Agricultural Products</p>
+            </div>
+            <div class="industry-item">
+                <div class="industry-icon"><i class="fas fa-car"></i></div>
+                <p>Automotive Parts</p>
+            </div>
+            <div class="industry-item">
+                <div class="industry-icon"><i class="fas fa-flask"></i></div>
+                <p>Chemical Industry</p>
+            </div>
+            <div class="industry-item">
+                <div class="industry-icon"><i class="fas fa-pills"></i></div>
+                <p>Food &amp; Pharmaceuticals</p>
+            </div>
+            <div class="industry-item">
+                <div class="industry-icon"><i class="fas fa-microchip"></i></div>
+                <p>Electronics Components</p>
+            </div>
+            <div class="industry-item">
+                <div class="industry-icon"><i class="fas fa-utensils"></i></div>
+                <p>Food &amp; Beverages</p>
+            </div>
+            <div class="industry-item">
+                <div class="industry-icon"><i class="fas fa-socks"></i></div>
+                <p>Leather Goods</p>
+            </div>
+            <div class="industry-item">
+                <div class="industry-icon"><i class="fas fa-house"></i></div>
+                <p>Household Products</p>
+            </div>
+            <div class="industry-item">
+                <div class="industry-icon"><i class="fas fa-wine-glass"></i></div>
+                <p>Glass Products</p>
+            </div>
+            <div class="industry-item">
+                <div class="industry-icon"><i class="fas fa-gears"></i></div>
+                <p>Metal &amp; Machinery</p>
+            </div>
+            <div class="industry-item">
+                <div class="industry-icon"><i class="fas fa-scroll"></i></div>
+                <p>Paper Products</p>
+            </div>
+            <div class="industry-item">
+                <div class="industry-icon"><i class="fas fa-shirt"></i></div>
+                <p>Textiles</p>
+            </div>
+            <div class="industry-item">
+                <div class="industry-icon"><i class="fas fa-smoking"></i></div>
+                <p>Tobacco Products</p>
+            </div>
+            <div class="industry-item">
+                <div class="industry-icon"><i class="fas fa-tree"></i></div>
+                <p>Wood Products</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== PARTNERS ========== -->
+<section class="partners section" id="partners">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-badge">Trusted By</span>
+            <h2>OUR PARTNERS</h2>
+        </div>
+    </div>
+    <!-- Infinite scroll track — no container, full width -->
+    <div class="partners-slider-wrap">
+        <div class="partners-track">
+            <!-- Set A -->
+            <div class="partner-item"><img src="images/partners/partner-1.png" alt="Partner 1"></div>
+            <div class="partner-item"><img src="images/partners/partner-2.png" alt="Partner 2"></div>
+            <div class="partner-item"><img src="images/partners/partner-3.png" alt="Partner 3"></div>
+            <div class="partner-item"><img src="images/partners/partner-4.png" alt="Partner 4"></div>
+            <div class="partner-item"><img src="images/partners/partner-5.png" alt="Partner 5"></div>
+            <div class="partner-item"><img src="images/partners/partner-6.png" alt="Partner 6"></div>
+            <div class="partner-item"><img src="images/partners/partner-7.png" alt="Partner 7"></div>
+            <!-- Set B (duplicate for seamless loop) -->
+            <div class="partner-item"><img src="images/partners/partner-1.png" alt="Partner 1"></div>
+            <div class="partner-item"><img src="images/partners/partner-2.png" alt="Partner 2"></div>
+            <div class="partner-item"><img src="images/partners/partner-3.png" alt="Partner 3"></div>
+            <div class="partner-item"><img src="images/partners/partner-4.png" alt="Partner 4"></div>
+            <div class="partner-item"><img src="images/partners/partner-5.png" alt="Partner 5"></div>
+            <div class="partner-item"><img src="images/partners/partner-6.png" alt="Partner 6"></div>
+            <div class="partner-item"><img src="images/partners/partner-7.png" alt="Partner 7"></div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== CONSULT FORM ========== -->
+<section class="contact section" id="contact">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-badge">Get in Touch</span>
+            <h2>Consult with Expert</h2>
+        </div>
+        <div class="contact-inner">
+            <form class="contact-form" id="contactForm" novalidate>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Your full name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="your@email.com" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="How can we help you?" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-paper-plane"></i> Send Message
+                </button>
+                <div class="form-success" id="formSuccess">
+                    <i class="fas fa-check-circle"></i> Message sent! We'll get back to you shortly.
+                </div>
+            </form>
+            <div class="contact-side">
+                <div class="contact-info-box">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link social-fb" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link social-yt" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-link social-ig" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link social-ln" aria-label="Line"><i class="fab fa-line"></i></a>
+                    </div>
+                </div>
+                <div class="qr-box">
+                    <img src="images/qr/qr-code.png" alt="QR Code - Contact us on Line" class="qr-img">
+                    <p>Scan QR Code</p>
+                    <span>to contact us on Line</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== BLOGS ========== -->
+<section class="blogs section" id="blogs">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-badge">Latest News</span>
+            <h2>Blogs</h2>
+        </div>
+        <div class="blogs-grid">
+            <article class="blog-card">
+                <div class="blog-img">
+                    <img src="images/blogs/blog-1.jpg" alt="Blog 1">
+                    <div class="blog-img-fallback"><i class="fas fa-newspaper"></i></div>
+                </div>
+                <div class="blog-content">
+                    <span class="blog-date"><i class="fas fa-calendar-alt"></i> August 30, 2023</span>
+                    <h4>How to Choose the Right Desiccant for Your Products</h4>
+                    <a href="#" class="btn-link">Read More <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </article>
+            <article class="blog-card">
+                <div class="blog-img">
+                    <img src="images/blogs/blog-2.jpg" alt="Blog 2">
+                    <div class="blog-img-fallback"><i class="fas fa-newspaper"></i></div>
+                </div>
+                <div class="blog-content">
+                    <span class="blog-date"><i class="fas fa-calendar-alt"></i> August 30, 2023</span>
+                    <h4>Moisture Control in Maritime Shipping: Best Practices</h4>
+                    <a href="#" class="btn-link">Read More <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </article>
+            <article class="blog-card">
+                <div class="blog-img">
+                    <img src="images/blogs/blog-3.jpg" alt="Blog 3">
+                    <div class="blog-img-fallback"><i class="fas fa-newspaper"></i></div>
+                </div>
+                <div class="blog-content">
+                    <span class="blog-date"><i class="fas fa-calendar-alt"></i> August 30, 2023</span>
+                    <h4>The Science Behind Oxygen Absorbers and Food Preservation</h4>
+                    <a href="#" class="btn-link">Read More <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer">
+    <div class="container footer-inner">
+        <div class="footer-col footer-brand">
+            <a href="index.html" class="logo footer-logo">
+                <img src="images/logo/1.png" alt="HiDRI" class="logo-img logo-img-footer">
+            </a>
+            <p class="footer-desc">Leading desiccant product manufacturer serving global industries. Protecting your products from moisture and mold effectively.</p>
+            <div class="footer-social">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Line"><i class="fab fa-line"></i></a>
+            </div>
+        </div>
+        <div class="footer-col">
+            <h4>Sales Office</h4>
+            <div class="footer-contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>104/6 Moo 6 T. Nakluea<br>A. Banglamung Chonburi 20150<br>Thailand</span>
+            </div>
+            <div class="footer-contact-item">
+                <i class="fas fa-phone"></i>
+                <span>(+66) 38 197 654 ext. 7</span>
+            </div>
+            <div class="footer-contact-item">
+                <i class="fas fa-phone"></i>
+                <span>(+66) 38 411 986 ext. 7</span>
+            </div>
+            <div class="footer-contact-item">
+                <i class="fas fa-envelope"></i>
+                <span>inquiry@hidri.co.th</span>
+            </div>
+        </div>
+        <div class="footer-col">
+            <h4>Useful Links</h4>
+            <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#industries">FAQ</a></li>
+                <li><a href="#blogs">Blog</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#products">Shop Online</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Location</h4>
+            <div class="footer-map">
+                <iframe
+                    title="HiDRI Office Location"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3878.9!2d100.9167!3d12.9333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDU2JzAwLjAiTiAxMDDCsDU1JzAwLjAiRQ!5e0!3m2!1sen!2sth!4v1"
+                    width="100%"
+                    height="160"
+                    style="border:0; border-radius:8px;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container footer-bottom-inner">
+            <p>&copy; 2024 Hi Dri (Thailand) Co., Ltd. All rights reserved.</p>
+            <p>inquiry@hidri.co.th</p>
+        </div>
+    </div>
+</footer>
+
+<a href="#home" class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+</a>
+
+<script src="js/script.js"></script>
+</body>
+</html>
